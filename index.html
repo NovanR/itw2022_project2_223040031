@@ -1,0 +1,2435 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Web Company</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="fontawesome/css/all.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+
+    <nav
+      class="navbar navbar-expand-lg fixed-top"
+      style="background-color: darkblue"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#" style="color: white">GameSHOP</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="margin: auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                ><i class="fa-brands fa-playstation"></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fa-brands fa-xbox"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="fa-sharp fa-solid fa-desktop"></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="fa-solid fa-mobile"></i
+              ></a>
+            </li>
+          </ul>
+          <span class="navbar-text" style="color: white">
+            we provide gaming needs
+          </span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- carousel -->
+
+    <div
+      class="carousel"
+      style="
+        width: 70%;
+        margin: auto;
+        margin-top: 50px;
+        background-color: lightblue;
+      "
+    >
+      <div
+        id="carouselExampleInterval"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="5000">
+            <img
+              src="img/playstation.jpg"
+              class="d-block w-100"
+              alt="logo-playstation"
+            />
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="img/xbox.webp" class="d-block w-100" alt="logo-xbox" />
+          </div>
+          <div class="carousel-item">
+            <img src="img/steam.webp" class="d-block w-100" alt="logo-steam" />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="img/google play.jpg"
+              class="d-block w-100"
+              alt="logo-google"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="img/mobile legends.jpg"
+              class="d-block w-100"
+              alt="logo-ML"
+            />
+          </div>
+          <div class="carousel-item">
+            <img src="img/pubg.jpg" class="d-block w-100" alt="logo-PUBG" />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleInterval"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleInterval"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <h3
+      style="
+        margin-left: 30px;
+        margin-top: 40px;
+        color: black;
+        border-bottom: 2px solid darkblue;
+      "
+    >
+      On Popular
+    </h3>
+
+    <!-- CARD -->
+
+    <div
+      class="isi"
+      style="
+        margin-top: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+      "
+    >
+      <!-- OFFCANVAS PLAYSTATION -->
+
+      <div class="card" style="width: 18rem">
+        <img
+          src="img/rsz_2ps_wallet.jpg"
+          class="card-img-top"
+          alt="ps-wallet"
+        />
+        <div class="card-body">
+          <h5
+            class="card-title"
+            style="color: black; font-size: 18px; padding-bottom: 50px"
+          >
+            Playstation Wallet
+          </h5>
+
+          <button
+            class="btn btn-primary"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasRight"
+            aria-controls="offcanvasRight"
+          >
+            Beli Sekarang!!!
+          </button>
+
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasRight"
+            aria-labelledby="offcanvasRightLabel"
+          >
+            <div class="offcanvas-header" style="background-color: darkblue">
+              <h5
+                class="offcanvas-title"
+                id="offcanvasRightLabel"
+                style="color: white"
+              >
+                Playstation Wallet
+              </h5>
+              <button
+                type="button"
+                class="btn-close btn-close-white"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <div class="harga">
+                <h5 style="color: black; margin-bottom: 20px">
+                  1. Pilih Voucher
+                </h5>
+                <ul style="padding: 0">
+                  <li>
+                    <button
+                      class="harga"
+                      style="
+                        color: black;
+                        border-radius: 5px;
+                        width: 80%;
+                        background-color: white;
+                        text-align: left;
+                        padding: 5px;
+                      "
+                    >
+                      <i
+                        class="fa-brands fa-playstation"
+                        style="color: black; padding-right: 20px"
+                      ></i
+                      >RP. 100.000
+                    </button>
+                  </li>
+                  <li>
+                    <button
+                      class="harga"
+                      style="
+                        color: black;
+                        border-radius: 5px;
+                        width: 80%;
+                        background-color: white;
+                        text-align: left;
+                        margin-top: 10px;
+                        padding: 5px;
+                      "
+                    >
+                      <i
+                        class="fa-brands fa-playstation"
+                        style="color: black; padding-right: 20px"
+                      ></i
+                      >RP. 200.000
+                    </button>
+                  </li>
+                  <li>
+                    <button
+                      class="harga"
+                      style="
+                        color: black;
+                        border-radius: 5px;
+                        width: 80%;
+                        background-color: white;
+                        text-align: left;
+                        margin-top: 10px;
+                        padding: 5px;
+                      "
+                    >
+                      <i
+                        class="fa-brands fa-playstation"
+                        style="color: black; padding-right: 20px"
+                      ></i
+                      >RP. 400.000
+                    </button>
+                  </li>
+                  <li>
+                    <button
+                      class="harga"
+                      style="
+                        color: black;
+                        border-radius: 5px;
+                        width: 80%;
+                        background-color: white;
+                        text-align: left;
+                        margin-top: 10px;
+                        padding: 5px;
+                      "
+                    >
+                      <i
+                        class="fa-brands fa-playstation"
+                        style="color: black; padding-right: 20px"
+                      ></i
+                      >RP. 600.000
+                    </button>
+                  </li>
+                  <li>
+                    <button
+                      class="harga"
+                      style="
+                        color: black;
+                        border-radius: 5px;
+                        width: 80%;
+                        background-color: white;
+                        text-align: left;
+                        margin-top: 10px;
+                        padding: 5px;
+                      "
+                    >
+                      <i
+                        class="fa-brands fa-playstation"
+                        style="color: black; padding-right: 20px"
+                      ></i
+                      >PS Plus 1 Bulan
+                    </button>
+                  </li>
+                  <li>
+                    <button
+                      class="harga"
+                      style="
+                        color: black;
+                        border-radius: 5px;
+                        width: 80%;
+                        background-color: white;
+                        text-align: left;
+                        margin-top: 10px;
+                        padding: 5px;
+                      "
+                    >
+                      <i
+                        class="fa-brands fa-playstation"
+                        style="color: black; padding-right: 20px"
+                      ></i
+                      >PS Plus 3 Bulan
+                    </button>
+                  </li>
+
+                  <li>
+                    <button
+                      class="harga"
+                      style="
+                        color: black;
+                        border-radius: 5px;
+                        width: 80%;
+                        background-color: white;
+                        text-align: left;
+                        margin-top: 10px;
+                        padding: 5px;
+                      "
+                    >
+                      <i
+                        class="fa-brands fa-playstation"
+                        style="color: black; padding-right: 20px"
+                      ></i
+                      >PS Plus 9 Bulan
+                    </button>
+                  </li>
+                </ul>
+                <a
+                  class="btn btn-primary sticky-bottom"
+                  href="index2.html"
+                  role="button"
+                  style="position: absolute; margin-bottom: 30px"
+                  >Pilih Pembayaran</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- OFFCANVAS XBOX -->
+
+      <div class="card" style="width: 18rem">
+        <img src="img/xbox gift2.jpg" class="card-img-top" alt="xbox-card" />
+        <div class="card-body">
+          <h5
+            class="card-title"
+            style="color: black; padding-bottom: 30px; font-size: 18px"
+          >
+            XBOX Gift Card
+          </h5>
+          <button
+            class="btn btn-primary"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasRight2"
+            aria-controls="offcanvasRight"
+          >
+            Beli Sekarang!!!
+          </button>
+
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasRight2"
+            aria-labelledby="offcanvasRightLabel"
+          >
+            <div class="offcanvas-header" style="background-color: darkgreen">
+              <p class="offcanvas-title" id="offcanvasRightLabel">
+                Xbox Gift Card (Digital code)
+              </p>
+              <button
+                type="button"
+                class="btn-close btn-close-white"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <p style="color: black; font-size: 15px">
+                1. Pilih Voucher (USA Region)
+              </p>
+              <ul style="padding: 0">
+                <li>
+                  <button
+                    class="harga-xbox"
+                    style="
+                      color: black;
+                      border-radius: 5px;
+                      width: 80%;
+                      background-color: white;
+                      text-align: left;
+                      padding: 5px;
+                    "
+                  >
+                    <i
+                      class="fa-brands fa-xbox"
+                      style="color: black; padding-right: 10px"
+                    ></i>
+                    10 $
+                  </button>
+                </li>
+                <li>
+                  <button
+                    class="harga-xbox"
+                    style="
+                      color: black;
+                      border-radius: 5px;
+                      width: 80%;
+                      background-color: white;
+                      margin-top: 20px;
+                      text-align: left;
+                      padding: 5px;
+                    "
+                  >
+                    <i
+                      class="fa-brands fa-xbox"
+                      style="color: black; padding-right: 10px"
+                    ></i>
+                    20 $
+                  </button>
+                </li>
+                <li>
+                  <button
+                    class="harga-xbox"
+                    style="
+                      color: black;
+                      border-radius: 5px;
+                      width: 80%;
+                      background-color: white;
+                      margin-top: 20px;
+                      text-align: left;
+                      padding: 5px;
+                    "
+                  >
+                    <i
+                      class="fa-brands fa-xbox"
+                      style="color: black; padding-right: 10px"
+                    ></i>
+                    50 $
+                  </button>
+                </li>
+                <li>
+                  <button
+                    class="harga-xbox"
+                    style="
+                      color: black;
+                      border-radius: 5px;
+                      width: 80%;
+                      background-color: white;
+                      margin-top: 20px;
+                      text-align: left;
+                      padding: 5px;
+                    "
+                  >
+                    <i
+                      class="fa-brands fa-xbox"
+                      style="color: black; padding-right: 10px"
+                    ></i>
+                    100 $
+                  </button>
+                </li>
+              </ul>
+              <a
+                class="btn btn-primary sticky-bottom"
+                href="index2.html"
+                role="button"
+                style="
+                  position: absolute;
+                  margin-bottom: 30px;
+                  background-color: darkgreen;
+                "
+                >Pilih Pembayaran</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- OFFCANVAS STEAM -->
+
+      <div class="card" style="width: 18rem">
+        <img
+          src="img/rsz_steam_wallet2.jpg"
+          class="card-img-top"
+          alt="steam-wallet"
+        />
+        <div class="card-body">
+          <h5
+            class="card-title"
+            style="color: black; padding-bottom: 50px; font-size: 18px"
+          >
+            Steam Wallet
+          </h5>
+          <button
+            class="btn btn-primary"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasRight3"
+            aria-controls="offcanvasRight"
+          >
+            Beli Sekarang!!!
+          </button>
+
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasRight3"
+            aria-labelledby="offcanvasRightLabel"
+          >
+            <div class="offcanvas-header" style="background-color: gray">
+              <h5 class="offcanvas-title" id="offcanvasRightLabel">
+                Steam Wallet
+              </h5>
+              <button
+                type="button"
+                class="btn-close btn-close-white"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <p style="color: black">1. Pilih Voucher</p>
+              <ul style="padding: 0">
+                <li>
+                  <button
+                    class="harga-steam"
+                    style="
+                      color: black;
+                      border-radius: 5px;
+                      width: 80%;
+                      background-color: white;
+                      margin-top: 20px;
+                      text-align: left;
+                      padding: 5px;
+                    "
+                  >
+                    <i
+                      class="fa-brands fa-steam"
+                      style="color: black; padding-right: 10px"
+                    ></i>
+                    RP. 45.000
+                  </button>
+                </li>
+                <li>
+                  <button
+                    class="harga-steam"
+                    style="
+                      color: black;
+                      border-radius: 5px;
+                      width: 80%;
+                      background-color: white;
+                      margin-top: 20px;
+                      text-align: left;
+                      padding: 5px;
+                    "
+                  >
+                    <i
+                      class="fa-brands fa-steam"
+                      style="color: black; padding-right: 10px"
+                    ></i>
+                    RP. 60.000
+                  </button>
+                </li>
+                <li>
+                  <button
+                    class="harga-steam"
+                    style="
+                      color: black;
+                      border-radius: 5px;
+                      width: 80%;
+                      background-color: white;
+                      margin-top: 20px;
+                      text-align: left;
+                      padding: 5px;
+                    "
+                  >
+                    <i
+                      class="fa-brands fa-steam"
+                      style="color: black; padding-right: 10px"
+                    ></i>
+                    RP. 90.000
+                  </button>
+                </li>
+                <li>
+                  <button
+                    class="harga-steam"
+                    style="
+                      color: black;
+                      border-radius: 5px;
+                      width: 80%;
+                      background-color: white;
+                      margin-top: 20px;
+                      text-align: left;
+                      padding: 5px;
+                    "
+                  >
+                    <i
+                      class="fa-brands fa-steam"
+                      style="color: black; padding-right: 10px"
+                    ></i>
+                    RP. 120.000
+                  </button>
+                </li>
+                <li>
+                  <button
+                    class="harga-steam"
+                    style="
+                      color: black;
+                      border-radius: 5px;
+                      width: 80%;
+                      background-color: white;
+                      margin-top: 20px;
+                      text-align: left;
+                      padding: 5px;
+                    "
+                  >
+                    <i
+                      class="fa-brands fa-steam"
+                      style="color: black; padding-right: 10px"
+                    ></i>
+                    RP. 250.000
+                  </button>
+                </li>
+                <li>
+                  <button
+                    class="harga-steam"
+                    style="
+                      color: black;
+                      border-radius: 5px;
+                      width: 80%;
+                      background-color: white;
+                      margin-top: 20px;
+                      text-align: left;
+                      padding: 5px;
+                    "
+                  >
+                    <i
+                      class="fa-brands fa-steam"
+                      style="color: black; padding-right: 10px"
+                    ></i>
+                    RP. 400.000
+                  </button>
+                </li>
+                <li>
+                  <button
+                    class="harga-steam"
+                    style="
+                      color: black;
+                      border-radius: 5px;
+                      width: 80%;
+                      background-color: white;
+                      margin-top: 20px;
+                      text-align: left;
+                      padding: 5px;
+                    "
+                  >
+                    <i
+                      class="fa-brands fa-steam"
+                      style="color: black; padding-right: 10px"
+                    ></i>
+                    RP. 600.000
+                  </button>
+                </li>
+              </ul>
+              <a
+                class="btn btn-primary sticky-bottom"
+                href="index2.html"
+                role="button"
+                style="
+                  position: absolute;
+                  margin-bottom: 30px;
+                  background-color: grey;
+                "
+                >Pilih Pembayaran</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--OFFCANVAS MOBILE LEGENDS  -->
+
+      <div class="card" style="width: 18rem">
+        <img src="img/ml diamond.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5
+            class="card-title"
+            style="color: black; padding-bottom: 30px; font-size: 18px"
+          >
+            Mobile legends Diamond
+          </h5>
+          <button
+            class="btn btn-primary"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasRight4"
+            aria-controls="offcanvasRight"
+          >
+            Beli Sekarang!!!
+          </button>
+
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasRight4"
+            aria-labelledby="offcanvasRightLabel"
+          >
+            <div class="offcanvas-header" style="background-color: blue">
+              <h5 class="offcanvas-title" id="offcanvasRightLabel">Diamond</h5>
+              <button
+                type="button"
+                class="btn-close btn-close-white"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <p style="color: black; font-size: 20px">1. Pilih Voucher</p>
+              <ul style="padding: 0">
+                <li>
+                  <button
+                    class="harga-ml"
+                    style="
+                      color: black;
+                      border-radius: 5px;
+                      width: 80%;
+                      background-color: white;
+                      font-size: 13px;
+                      text-align: left;
+                      padding: 5px;
+                    "
+                  >
+                    <i
+                      class="fa-solid fa-gem"
+                      style="color: black; padding-right: 10px"
+                    ></i>
+                    77 Diamond (RP. 24.000)
+                  </button>
+                </li>
+                <li>
+                  <button
+                    class="harga-ml"
+                    style="
+                      color: black;
+                      border-radius: 5px;
+                      width: 80%;
+                      background-color: white;
+                      margin-top: 15px;
+                      font-size: 13px;
+                      text-align: left;
+                      padding: 5px;
+                    "
+                  >
+                    <i
+                      class="fa-solid fa-gem"
+                      style="color: black; padding-right: 10px"
+                    ></i>
+                    154 Diamond (RP. 48.000)
+                  </button>
+                </li>
+                <li>
+                  <button
+                    class="harga-ml"
+                    style="
+                      color: black;
+                      border-radius: 5px;
+                      width: 80%;
+                      background-color: white;
+                      margin-top: 15px;
+                      font-size: 13px;
+                      text-align: left;
+                      padding: 5px;
+                    "
+                  >
+                    <i
+                      class="fa-solid fa-gem"
+                      style="color: black; padding-right: 10px"
+                    ></i>
+                    217 Diamond (RP. 68.000)
+                  </button>
+                </li>
+                <li>
+                  <button
+                    class="harga-ml"
+                    style="
+                      color: black;
+                      border-radius: 5px;
+                      width: 80%;
+                      background-color: white;
+                      margin-top: 15px;
+                      font-size: 13px;
+                      text-align: left;
+                      padding: 5px;
+                    "
+                  >
+                    <i
+                      class="fa-solid fa-gem"
+                      style="color: black; padding-right: 10px"
+                    ></i>
+                    256 Diamond (RP. 84.000)
+                  </button>
+                </li>
+                <li>
+                  <button
+                    class="harga-ml"
+                    style="
+                      color: black;
+                      border-radius: 5px;
+                      width: 80%;
+                      background-color: white;
+                      margin-top: 15px;
+                      font-size: 13px;
+                      text-align: left;
+                      padding: 5px;
+                    "
+                  >
+                    <i
+                      class="fa-solid fa-gem"
+                      style="color: black; padding-right: 10px"
+                    ></i>
+                    367 Diamond (RP. 115.000)
+                  </button>
+                </li>
+                <li>
+                  <button
+                    class="harga-ml"
+                    style="
+                      color: black;
+                      border-radius: 5px;
+                      width: 80%;
+                      background-color: white;
+                      margin-top: 15px;
+                      font-size: 13px;
+                      text-align: left;
+                      padding: 5px;
+                    "
+                  >
+                    <i
+                      class="fa-solid fa-gem"
+                      style="color: black; padding-right: 10px"
+                    ></i>
+                    503 Diamond (RP. 158.000)
+                  </button>
+                </li>
+                <li>
+                  <button
+                    class="harga-ml"
+                    style="
+                      color: black;
+                      border-radius: 5px;
+                      width: 80%;
+                      background-color: white;
+                      margin-top: 15px;
+                      font-size: 13px;
+                      text-align: left;
+                      padding: 5px;
+                    "
+                  >
+                    <i
+                      class="fa-solid fa-gem"
+                      style="color: black; padding-right: 10px"
+                    ></i>
+                    774 Diamond (RP. 242.000)
+                  </button>
+                </li>
+              </ul>
+              <a
+                class="btn btn-primary sticky-bottom"
+                href="index2.html"
+                role="button"
+                style="
+                  position: absolute;
+                  margin-bottom: 30px;
+                  background-color: blue;
+                "
+                >Pilih Pembayaran</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- OFFCANVAS GENSHIN IMPACT -->
+
+      <div class="card" style="width: 18rem">
+        <img src="img/rsz_1wyrd-art.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5
+            class="card-title"
+            style="color: black; padding-bottom: 30px; font-size: 18px"
+          >
+            Genshin Impact Crystal
+          </h5>
+          <button
+            class="btn btn-primary"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasRight5"
+            aria-controls="offcanvasRight"
+          >
+            Beli Sekarang!!!
+          </button>
+
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasRight5"
+            aria-labelledby="offcanvasRightLabel"
+          >
+            <div class="offcanvas-header" style="background-color: darkblue">
+              <h5 class="offcanvas-title" id="offcanvasRightLabel">Crystal</h5>
+              <button
+                type="button"
+                class="btn-close btn-close-white"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <p style="color: black; font-size: 20px">1. Pilih Voucher</p>
+              <ul style="padding: 0">
+                <li>
+                  <button
+                    class="harga-genshin"
+                    style="
+                      color: black;
+                      border-radius: 5px;
+                      width: 100%;
+                      background-color: white;
+                      margin-top: 20px;
+                      text-align: left;
+                      padding: 5px;
+                    "
+                  >
+                    <i
+                      class="fa-regular fa-gem"
+                      style="color: black; padding-right: 10px"
+                    ></i>
+                    60 Crystal (Rp. 16.000)
+                  </button>
+                </li>
+                <li>
+                  <button
+                    class="harga-genshin"
+                    style="
+                      color: black;
+                      border-radius: 5px;
+                      width: 100%;
+                      background-color: white;
+                      margin-top: 20px;
+                      text-align: left;
+                      padding: 5px;
+                    "
+                  >
+                    <i
+                      class="fa-regular fa-gem"
+                      style="color: black; padding-right: 10px"
+                    ></i>
+                    300 Crystal (Rp. 79.000)
+                  </button>
+                </li>
+                <li>
+                  <button
+                    class="harga-genshin"
+                    style="
+                      color: black;
+                      border-radius: 5px;
+                      width: 100%;
+                      background-color: white;
+                      margin-top: 20px;
+                      text-align: left;
+                      padding: 5px;
+                    "
+                  >
+                    <i
+                      class="fa-regular fa-gem"
+                      style="color: black; padding-right: 10px"
+                    ></i>
+                    980 Crystal (Rp. 249.000)
+                  </button>
+                </li>
+                <li>
+                  <button
+                    class="harga-genshin"
+                    style="
+                      color: black;
+                      border-radius: 5px;
+                      width: 100%;
+                      background-color: white;
+                      margin-top: 20px;
+                      text-align: left;
+                      padding: 5px;
+                    "
+                  >
+                    <i
+                      class="fa-regular fa-gem"
+                      style="color: black; padding-right: 10px"
+                    ></i>
+                    1980 Crystal (Rp. 479.000)
+                  </button>
+                </li>
+                <li>
+                  <button
+                    class="harga-genshin"
+                    style="
+                      color: black;
+                      border-radius: 5px;
+                      width: 100%;
+                      background-color: white;
+                      font-size: 15px;
+                      margin-top: 20px;
+                      text-align: left;
+                      padding: 5px;
+                    "
+                  >
+                    <i
+                      class="fa-regular fa-gem"
+                      style="color: black; padding-right: 10px"
+                    ></i>
+                    3280 Crystal (Rp. 799.000)
+                  </button>
+                </li>
+              </ul>
+              <a
+                class="btn btn-primary sticky-bottom"
+                href="index2.html"
+                role="button"
+                style="
+                  position: absolute;
+                  margin-bottom: 30px;
+                  background-color: darkblue;
+                "
+                >Pilih Pembayaran</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br /><br /><br /><br /><br /><br />
+    <h3
+      style="
+        margin-left: 30px;
+        margin-top: 40px;
+        color: black;
+        border-bottom: 2px solid darkblue;
+      "
+    >
+      Games
+    </h3>
+    <div
+      class="isi2"
+      style="
+        margin-top: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+      "
+    >
+      <!-- OFFCANVAS PLAYSTORE -->
+
+      <div class="card" style="width: 18rem">
+        <img src="img/google play.jpg" class="card-img-top" alt="google-play" />
+        <div class="card-body">
+          <h5 class="card-title" style="color: black; padding-bottom: 50px">
+            Google Play
+          </h5>
+          <button
+            class="btn btn-primary"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasRight6"
+            aria-controls="offcanvasRight"
+          >
+            Beli Sekarang!!!
+          </button>
+
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasRight6"
+            aria-labelledby="offcanvasRightLabel"
+          >
+            <div
+              class="offcanvas-header"
+              style="
+                background-image: linear-gradient(
+                  to right,
+                  blue,
+                  green,
+                  yellow,
+                  red
+                );
+              "
+            >
+              <h5 class="offcanvas-title" id="offcanvasRightLabel">
+                Google Play
+              </h5>
+              <button
+                type="button"
+                class="btn-close btn-close-white"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <p style="color: black; font-size: 20px">1. Pilih Voucher</p>
+              <ul style="padding: 0">
+                <li>
+                  <button
+                    class="harga-google"
+                    style="
+                      color: black;
+                      border-radius: 5px;
+                      width: 80%;
+                      background-color: white;
+                      margin-top: 20px;
+                      text-align: left;
+                      padding: 5px;
+                    "
+                  >
+                    <i
+                      class="fa-brands fa-google-play"
+                      style="padding-right: 10px; color: black"
+                    ></i>
+                    Rp. 20.000
+                  </button>
+                </li>
+                <li>
+                  <button
+                    class="harga-google"
+                    style="
+                      color: black;
+                      border-radius: 5px;
+                      width: 80%;
+                      background-color: white;
+                      margin-top: 20px;
+                      text-align: left;
+                      padding: 5px;
+                    "
+                  >
+                    <i
+                      class="fa-brands fa-google-play"
+                      style="padding-right: 10px; color: black"
+                    ></i>
+                    Rp. 50.000
+                  </button>
+                </li>
+                <li>
+                  <button
+                    class="harga-google"
+                    style="
+                      color: black;
+                      border-radius: 5px;
+                      width: 80%;
+                      background-color: white;
+                      margin-top: 20px;
+                      text-align: left;
+                      padding: 5px;
+                    "
+                  >
+                    <i
+                      class="fa-brands fa-google-play"
+                      style="padding-right: 10px; color: black"
+                    ></i>
+                    Rp. 100.000
+                  </button>
+                </li>
+                <li>
+                  <button
+                    class="harga-google"
+                    style="
+                      color: black;
+                      border-radius: 5px;
+                      width: 80%;
+                      background-color: white;
+                      margin-top: 20px;
+                      text-align: left;
+                      padding: 5px;
+                    "
+                  >
+                    <i
+                      class="fa-brands fa-google-play"
+                      style="padding-right: 10px; color: black"
+                    ></i>
+                    Rp. 150.000
+                  </button>
+                </li>
+                <li>
+                  <button
+                    class="harga-google"
+                    style="
+                      color: black;
+                      border-radius: 5px;
+                      width: 80%;
+                      background-color: white;
+                      margin-top: 20px;
+                      text-align: left;
+                      padding: 5px;
+                    "
+                  >
+                    <i
+                      class="fa-brands fa-google-play"
+                      style="padding-right: 10px; color: black"
+                    ></i>
+                    Rp. 300.000
+                  </button>
+                </li>
+                <li>
+                  <button
+                    class="harga-google"
+                    style="
+                      color: black;
+                      border-radius: 5px;
+                      width: 80%;
+                      background-color: white;
+                      margin-top: 20px;
+                      text-align: left;
+                      padding: 5px;
+                    "
+                  >
+                    <i
+                      class="fa-brands fa-google-play"
+                      style="padding-right: 10px; color: black"
+                    ></i>
+                    Rp. 500.000
+                  </button>
+                </li>
+              </ul>
+              <a
+                class="btn btn-primary sticky-bottom"
+                href="index2.html"
+                role="button"
+                style="position: absolute; margin-bottom: 30px"
+                >Pilih Pembayaran</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- OFFCANVAS POINT BLANK -->
+
+      <div class="card" style="width: 18rem">
+        <img
+          src="img/point blank.webp"
+          class="card-img-top"
+          alt="point blank"
+        />
+        <div class="card-body">
+          <h5 class="card-title" style="color: black; padding-bottom: 50px">
+            Point Blank
+          </h5>
+          <button
+            class="btn btn-primary"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasRight7"
+            aria-controls="offcanvasRight"
+          >
+            Beli Sekarang!!!
+          </button>
+
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasRight7"
+            aria-labelledby="offcanvasRightLabel"
+          >
+            <div class="offcanvas-header" style="background-color: darkgray">
+              <h5
+                class="offcanvas-title"
+                id="offcanvasRightLabel"
+                style="color: black"
+              >
+                Offcanvas right
+              </h5>
+              <button
+                type="button"
+                class="btn-close btn-close-white"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <p style="color: black; font-size: 20px">1. Pilih Voucher</p>
+              <ul style="padding: 0">
+                <li>
+                  <button
+                    class="harga-pb"
+                    style="
+                      color: black;
+                      border-radius: 5px;
+                      width: 80%;
+                      background-color: white;
+                      margin-top: 20px;
+                      text-align: left;
+                      padding: 5px;
+                    "
+                  >
+                    <i
+                      class="fa-solid fa-money-bill"
+                      style="color: black; padding-right: 20px"
+                    ></i>
+                    1200 PB Cash
+                  </button>
+                </li>
+                <li>
+                  <button
+                    class="harga-pb"
+                    style="
+                      color: black;
+                      border-radius: 5px;
+                      width: 80%;
+                      background-color: white;
+                      margin-top: 20px;
+                      text-align: left;
+                      padding: 5px;
+                    "
+                  >
+                    <i
+                      class="fa-solid fa-money-bill"
+                      style="color: black; padding-right: 20px"
+                    ></i>
+                    2400 PB Cash
+                  </button>
+                </li>
+                <li>
+                  <button
+                    class="harga-pb"
+                    style="
+                      color: black;
+                      border-radius: 5px;
+                      width: 80%;
+                      background-color: white;
+                      margin-top: 20px;
+                      text-align: left;
+                      padding: 5px;
+                    "
+                  >
+                    <i
+                      class="fa-solid fa-money-bill"
+                      style="color: black; padding-right: 20px"
+                    ></i>
+                    6000 PB Cash
+                  </button>
+                </li>
+                <li>
+                  <button
+                    class="harga-pb"
+                    style="
+                      color: black;
+                      border-radius: 5px;
+                      width: 80%;
+                      background-color: white;
+                      margin-top: 20px;
+                      text-align: left;
+                      padding: 5px;
+                    "
+                  >
+                    <i
+                      class="fa-solid fa-money-bill"
+                      style="color: black; padding-right: 20px"
+                    ></i>
+                    12000 PB Cash
+                  </button>
+                </li>
+                <li>
+                  <button
+                    class="harga-pb"
+                    style="
+                      color: black;
+                      border-radius: 5px;
+                      width: 80%;
+                      background-color: white;
+                      margin-top: 20px;
+                      text-align: left;
+                      padding: 5px;
+                    "
+                  >
+                    <i
+                      class="fa-solid fa-money-bill"
+                      style="color: black; padding-right: 20px"
+                    ></i>
+                    24000 PB Cash
+                  </button>
+                </li>
+              </ul>
+              <a
+                class="btn btn-secondary sticky-bottom"
+                href="index2.html"
+                role="button"
+                style="
+                  position: absolute;
+                  margin-bottom: 30px;
+                  background-color: darkgray;
+                  color: black;
+                "
+                >Pilih Pembayaran</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- OFFCANVAS PUBG MOBILE -->
+
+      <div class="card" style="width: 18rem">
+        <img src="img/pubg mobile.jpg" class="card-img-top" alt="pubg-mobile" />
+        <div class="card-body">
+          <h5 class="card-title" style="color: black; padding-bottom: 50px">
+            PUBG Mobile
+          </h5>
+          <button
+            class="btn btn-primary"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasRight8"
+            aria-controls="offcanvasRight"
+          >
+            Beli Sekarang!!!
+          </button>
+
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasRight8"
+            aria-labelledby="offcanvasRightLabel"
+          >
+            <div class="offcanvas-header" style="background-color: darkorange">
+              <h5
+                class="offcanvas-title"
+                id="offcanvasRightLabel"
+                style="color: black"
+              >
+                UC PUBG
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <p style="color: black; font-size: 20px">1. Pilih Voucher</p>
+              <ul style="padding: 0">
+                <li>
+                  <button
+                    class="harga-pubg"
+                    style="
+                      color: black;
+                      border-radius: 5px;
+                      width: 80%;
+                      background-color: white;
+                      margin-top: 20px;
+                      text-align: left;
+                      padding: 5px;
+                    "
+                  >
+                    <i
+                      class="fa-solid fa-money-bill"
+                      style="color: black; padding-right: 20px"
+                    ></i>
+                    125 (Rp. 25.000)
+                  </button>
+                </li>
+                <li>
+                  <button
+                    class="harga-pubg"
+                    style="
+                      color: black;
+                      border-radius: 5px;
+                      width: 80%;
+                      background-color: white;
+                      margin-top: 20px;
+                      text-align: left;
+                      padding: 5px;
+                    "
+                  >
+                    <i
+                      class="fa-solid fa-money-bill"
+                      style="color: black; padding-right: 20px"
+                    ></i>
+                    250 (Rp. 50.000)
+                  </button>
+                </li>
+                <li>
+                  <button
+                    class="harga-pubg"
+                    style="
+                      color: black;
+                      border-radius: 5px;
+                      width: 80%;
+                      background-color: white;
+                      margin-top: 20px;
+                      text-align: left;
+                      padding: 5px;
+                    "
+                  >
+                    <i
+                      class="fa-solid fa-money-bill"
+                      style="color: black; padding-right: 20px"
+                    ></i>
+                    500 (Rp. 100.000)
+                  </button>
+                </li>
+                <li>
+                  <button
+                    class="harga-pubg"
+                    style="
+                      color: black;
+                      border-radius: 5px;
+                      width: 80%;
+                      background-color: white;
+                      margin-top: 20px;
+                      text-align: left;
+                      padding: 5px;
+                    "
+                  >
+                    <i
+                      class="fa-solid fa-money-bill"
+                      style="color: black; padding-right: 20px"
+                    ></i>
+                    1250 (Rp. 250.000)
+                  </button>
+                </li>
+                <li>
+                  <button
+                    class="harga-pubg"
+                    style="
+                      color: black;
+                      border-radius: 5px;
+                      width: 80%;
+                      background-color: white;
+                      margin-top: 20px;
+                      text-align: left;
+                      padding: 5px;
+                    "
+                  >
+                    <i
+                      class="fa-solid fa-money-bill"
+                      style="color: black; padding-right: 20px"
+                    ></i>
+                    2500 (Rp. 500.000)
+                  </button>
+                </li>
+                <li>
+                  <button
+                    class="harga-pubg"
+                    style="
+                      color: black;
+                      border-radius: 5px;
+                      width: 80%;
+                      background-color: white;
+                      font-size: 15px;
+                      margin-top: 20px;
+                      text-align: left;
+                      padding: 5px;
+                    "
+                  >
+                    <i
+                      class="fa-solid fa-money-bill"
+                      style="color: black; padding-right: 20px"
+                    ></i>
+                    5000 (Rp. 1.000.000)
+                  </button>
+                </li>
+              </ul>
+              <a
+                class="btn btn-secondary sticky-bottom"
+                href="index2.html"
+                role="button"
+                style="
+                  position: absolute;
+                  margin-bottom: 30px;
+                  background-color: darkorange;
+                  color: black;
+                "
+                >Pilih Pembayaran</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- OFFCANVAS MINECRAFT -->
+
+      <div class="card" style="width: 18rem">
+        <img src="img/minecraft.webp" class="card-img-top" alt="minecraft" />
+        <div class="card-body">
+          <h5 class="card-title" style="color: black; padding-bottom: 50px">
+            Minecraft
+          </h5>
+          <button
+            class="btn btn-primary"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasRight9"
+            aria-controls="offcanvasRight"
+          >
+            Beli Sekarang!!!
+          </button>
+
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasRight9"
+            aria-labelledby="offcanvasRightLabel"
+          >
+            <div class="offcanvas-header" style="background-color: green">
+              <h5 class="offcanvas-title" id="offcanvasRightLabel">
+                Minecoins
+              </h5>
+              <button
+                type="button"
+                class="btn-close btn-close-white"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <p style="color: black; font-size: 20px">1. Pilih Voucher</p>
+              <ul style="padding: 0">
+                <li>
+                  <button
+                    class="harga-google"
+                    style="
+                      color: black;
+                      border-radius: 5px;
+                      width: 100%;
+                      background-color: white;
+                      font-size: 15px;
+                      margin-top: 20px;
+                      text-align: left;
+                      padding: 5px;
+                    "
+                  >
+                    <i
+                      class="fa-solid fa-coins"
+                      style="color: black; padding-right: 20px"
+                    ></i>
+                    1720 Coins (Rp. 178.000)
+                  </button>
+                </li>
+                <li>
+                  <button
+                    class="harga-google"
+                    style="
+                      color: black;
+                      border-radius: 5px;
+                      width: 100%;
+                      background-color: white;
+                      font-size: 15px;
+                      margin-top: 20px;
+                      text-align: left;
+                      padding: 5px;
+                    "
+                  >
+                    <i
+                      class="fa-solid fa-coins"
+                      style="color: black; padding-right: 20px"
+                    ></i>
+                    3500 Coins (Rp. 356.000)
+                  </button>
+                </li>
+              </ul>
+              <a
+                class="btn btn-secondary sticky-bottom"
+                href="index2.html"
+                role="button"
+                style="
+                  position: absolute;
+                  margin-bottom: 30px;
+                  background-color: green;
+                  color: white;
+                "
+                >Pilih Pembayaran</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- OFFCANVAS GARENA SHELL -->
+
+      <div class="card" style="width: 18rem">
+        <img src="img/garena.jpg" class="card-img-top" alt="garena" />
+        <div class="card-body">
+          <h5 class="card-title" style="color: black; padding-bottom: 50px">
+            Garena Shell
+          </h5>
+          <button
+            class="btn btn-primary"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasRight10"
+            aria-controls="offcanvasRight"
+          >
+            Beli Sekarang!!!
+          </button>
+
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasRight10"
+            aria-labelledby="offcanvasRightLabel"
+          >
+            <div class="offcanvas-header" style="background-color: red">
+              <h5 class="offcanvas-title" id="offcanvasRightLabel">
+                Garena Shell
+              </h5>
+              <button
+                type="button"
+                class="btn-close btn-close-white"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <p style="color: black; font-size: 20px">1. Pilih Voucher</p>
+              <ul style="padding: 0">
+                <li>
+                  <button
+                    class="harga-garena"
+                    style="
+                      color: black;
+                      border-radius: 5px;
+                      width: 90%;
+                      background-color: white;
+                      font-size: 15px;
+                      margin-top: 20px;
+                      text-align: left;
+                      padding: 5px;
+                    "
+                  >
+                    <i
+                      class="fa-solid fa-money-bill"
+                      style="color: black; padding-right: 20px"
+                    ></i>
+                    33 Shell (Rp. 10.000)
+                  </button>
+                </li>
+                <li>
+                  <button
+                    class="harga-garena"
+                    style="
+                      color: black;
+                      border-radius: 5px;
+                      width: 90%;
+                      background-color: white;
+                      font-size: 15px;
+                      margin-top: 20px;
+                      text-align: left;
+                      padding: 5px;
+                    "
+                  >
+                    <i
+                      class="fa-solid fa-money-bill"
+                      style="color: black; padding-right: 20px"
+                    ></i>
+                    66 Shell (Rp. 20.000)
+                  </button>
+                </li>
+                <li>
+                  <button
+                    class="harga-garena"
+                    style="
+                      color: black;
+                      border-radius: 5px;
+                      width: 90%;
+                      background-color: white;
+                      font-size: 15px;
+                      margin-top: 20px;
+                      text-align: left;
+                      padding: 5px;
+                    "
+                  >
+                    <i
+                      class="fa-solid fa-money-bill"
+                      style="color: black; padding-right: 20px"
+                    ></i>
+                    165 Shell (Rp. 50.000)
+                  </button>
+                </li>
+                <li>
+                  <button
+                    class="harga-garena"
+                    style="
+                      color: black;
+                      border-radius: 5px;
+                      width: 90%;
+                      background-color: white;
+                      font-size: 15px;
+                      margin-top: 20px;
+                      text-align: left;
+                      padding: 5px;
+                    "
+                  >
+                    <i
+                      class="fa-solid fa-money-bill"
+                      style="color: black; padding-right: 20px"
+                    ></i>
+                    330 Shell (Rp. 100.000)
+                  </button>
+                </li>
+              </ul>
+              <a
+                class="btn btn-secondary sticky-bottom"
+                href="index2.html"
+                role="button"
+                style="
+                  position: absolute;
+                  margin-bottom: 30px;
+                  background-color: red;
+                  color: white;
+                "
+                >Pilih Pembayaran</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- OFFCANVAS COC -->
+
+      <div class="card" style="width: 18rem">
+        <img src="img/coc.jpg" class="card-img-top" alt="clash-of-clans" />
+        <div class="card-body">
+          <h5 class="card-title" style="color: black; padding-bottom: 50px">
+            Clash Of Clans
+          </h5>
+          <button
+            class="btn btn-primary"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasRight11"
+            aria-controls="offcanvasRight"
+          >
+            Beli Sekarang!!!
+          </button>
+
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasRight11"
+            aria-labelledby="offcanvasRightLabel"
+          >
+            <div class="offcanvas-header" style="background-color: orange">
+              <h5 class="offcanvas-title" id="offcanvasRightLabel">COC Gems</h5>
+              <button
+                type="button"
+                class="btn-close btn-close-white"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <p style="color: black; font-size: 20px">1. Pilih Voucher</p>
+              <ul style="padding: 0">
+                <li>
+                  <button
+                    class="harga-coc"
+                    style="
+                      color: black;
+                      border-radius: 5px;
+                      width: 100%;
+                      background-color: white;
+                      font-size: 15px;
+                      margin-top: 20px;
+                      text-align: left;
+                      padding: 5px;
+                    "
+                  >
+                    <i
+                      class="fa-regular fa-gem"
+                      style="color: black; padding-right: 20px"
+                    ></i>
+                    500 Gems (Rp. 70.000)
+                  </button>
+                </li>
+                <li>
+                  <button
+                    class="harga-coc"
+                    style="
+                      color: black;
+                      border-radius: 5px;
+                      width: 100%;
+                      background-color: white;
+                      font-size: 15px;
+                      margin-top: 20px;
+                      text-align: left;
+                      padding: 5px;
+                    "
+                  >
+                    <i
+                      class="fa-regular fa-gem"
+                      style="color: black; padding-right: 20px"
+                    ></i>
+                    1200 Gems (Rp. 135.000)
+                  </button>
+                </li>
+                <li>
+                  <button
+                    class="harga-coc"
+                    style="
+                      color: black;
+                      border-radius: 5px;
+                      width: 100%;
+                      background-color: white;
+                      font-size: 15px;
+                      margin-top: 20px;
+                      text-align: left;
+                      padding: 5px;
+                    "
+                  >
+                    <i
+                      class="fa-regular fa-gem"
+                      style="color: black; padding-right: 20px"
+                    ></i>
+                    2500 Gems (Rp. 270.000)
+                  </button>
+                </li>
+                <li>
+                  <button
+                    class="harga-coc"
+                    style="
+                      color: black;
+                      border-radius: 5px;
+                      width: 100%;
+                      background-color: white;
+                      font-size: 15px;
+                      margin-top: 20px;
+                      text-align: left;
+                      padding: 5px;
+                    "
+                  >
+                    <i
+                      class="fa-regular fa-gem"
+                      style="color: black; padding-right: 20px"
+                    ></i>
+                    6500 Gems (Rp. 675.000)
+                  </button>
+                </li>
+                <li>
+                  <button
+                    class="harga-coc"
+                    style="
+                      color: black;
+                      border-radius: 5px;
+                      width: 100%;
+                      background-color: white;
+                      font-size: 15px;
+                      margin-top: 20px;
+                      text-align: left;
+                      padding: 5px;
+                    "
+                  >
+                    <i
+                      class="fa-regular fa-gem"
+                      style="color: black; padding-right: 20px"
+                    ></i>
+                    14000 Gems (Rp. 1.350.000)
+                  </button>
+                </li>
+              </ul>
+              <a
+                class="btn btn-secondary sticky-bottom"
+                href="index2.html"
+                role="button"
+                style="
+                  position: absolute;
+                  margin-bottom: 30px;
+                  background-color: orange;
+                  color: white;
+                "
+                >Pilih Pembayaran</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- OFFCANVAS TOP ELEVEN -->
+
+      <div class="card" style="width: 18rem">
+        <img src="img/top eleven.png" class="card-img-top" alt="top-eleven" />
+        <div class="card-body">
+          <h5 class="card-title" style="color: black; padding-bottom: 50px">
+            Top Eleven
+          </h5>
+          <button
+            class="btn btn-primary"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasRight12"
+            aria-controls="offcanvasRight"
+          >
+            Beli Sekarang!!!
+          </button>
+
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasRight12"
+            aria-labelledby="offcanvasRightLabel"
+          >
+            <div class="offcanvas-header" style="background-color: lightgreen">
+              <h5
+                class="offcanvas-title"
+                id="offcanvasRightLabel"
+                style="color: black"
+              >
+                Tokens
+              </h5>
+              <button
+                type="button"
+                class="btn-close btn-close-white"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <p style="font-size: 20px; color: black">1. Pilih Voucher</p>
+              <ul style="padding: 0">
+                <li>
+                  <button
+                    class="harga-top"
+                    style="
+                      color: black;
+                      border-radius: 5px;
+                      width: 100%;
+                      background-color: white;
+                      margin-top: 20px;
+                      text-align: left;
+                      padding: 5px;
+                    "
+                  >
+                    <i
+                      class="fa-solid fa-coins"
+                      style="color: black; padding-right: 20px"
+                    ></i>
+                    14 Tokens (Rp. 30.000)
+                  </button>
+                </li>
+                <li>
+                  <button
+                    class="harga-top"
+                    style="
+                      color: black;
+                      border-radius: 5px;
+                      width: 100%;
+                      background-color: white;
+                      margin-top: 20px;
+                      text-align: left;
+                      padding: 5px;
+                    "
+                  >
+                    <i
+                      class="fa-solid fa-coins"
+                      style="color: black; padding-right: 20px"
+                    ></i>
+                    37 Tokens (Rp. 75.000)
+                  </button>
+                </li>
+                <li>
+                  <button
+                    class="harga-top"
+                    style="
+                      color: black;
+                      border-radius: 5px;
+                      width: 100%;
+                      background-color: white;
+                      margin-top: 20px;
+                      text-align: left;
+                      padding: 5px;
+                    "
+                  >
+                    <i
+                      class="fa-solid fa-coins"
+                      style="color: black; padding-right: 20px"
+                    ></i>
+                    80 Tokens (Rp. 150.000)
+                  </button>
+                </li>
+                <li>
+                  <button
+                    class="harga-top"
+                    style="
+                      color: black;
+                      border-radius: 5px;
+                      width: 100%;
+                      background-color: white;
+                      margin-top: 20px;
+                      text-align: left;
+                      padding: 5px;
+                    "
+                  >
+                    <i
+                      class="fa-solid fa-coins"
+                      style="color: black; padding-right: 20px"
+                    ></i>
+                    176 Tokens (Rp. 300.000)
+                  </button>
+                </li>
+                <li>
+                  <button
+                    class="harga-top"
+                    style="
+                      color: black;
+                      border-radius: 5px;
+                      width: 100%;
+                      background-color: white;
+                      margin-top: 20px;
+                      text-align: left;
+                      padding: 5px;
+                    "
+                  >
+                    <i
+                      class="fa-solid fa-coins"
+                      style="color: black; padding-right: 20px"
+                    ></i>
+                    500 Tokens (Rp. 750.000)
+                  </button>
+                </li>
+                <li>
+                  <button
+                    class="harga-top"
+                    style="
+                      color: black;
+                      border-radius: 5px;
+                      width: 100%;
+                      background-color: white;
+                      font-size: 15px;
+                      margin-top: 20px;
+                      text-align: left;
+                      padding: 5px;
+                    "
+                  >
+                    <i
+                      class="fa-solid fa-coins"
+                      style="color: black; padding-right: 20px"
+                    ></i>
+                    1031 Tokens (Rp. 1.500.000)
+                  </button>
+                </li>
+              </ul>
+              <a
+                class="btn btn-secondary sticky-bottom"
+                href="index2.html"
+                role="button"
+                style="
+                  position: absolute;
+                  margin-bottom: 30px;
+                  background-color: lightgreen;
+                  color: black;
+                "
+                >Pilih Pembayaran</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- OFFCANVAS 8 BALL POOL -->
+
+      <div class="card" style="width: 18rem">
+        <img src="img/8abll.jfif" class="card-img-top" alt="8-ball-pool" />
+        <div class="card-body">
+          <h5 class="card-title" style="color: black; padding-bottom: 50px">
+            8 Ball Pool
+          </h5>
+          <button
+            class="btn btn-primary"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasRight13"
+            aria-controls="offcanvasRight"
+          >
+            Beli Sekarang!!!
+          </button>
+
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasRight13"
+            aria-labelledby="offcanvasRightLabel"
+          >
+            <div class="offcanvas-header" style="background-color: darkblue">
+              <h5 class="offcanvas-title" id="offcanvasRightLabel">
+                8 Ball Pool Cash
+              </h5>
+              <button
+                type="button"
+                class="btn-close btn-close-white"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <p style="color: black; font-size: 20px">1. Pilih Voucher</p>
+              <ul style="padding: 0">
+                <li>
+                  <button
+                    class="harga-ball"
+                    style="
+                      color: black;
+                      border-radius: 5px;
+                      width: 100%;
+                      background-color: white;
+                      margin-top: 20px;
+                      text-align: left;
+                      padding: 5px;
+                    "
+                  >
+                    <i
+                      class="fa-solid fa-money-bill"
+                      style="color: black; padding-right: 20px"
+                    ></i>
+                    50 Cash (Rp. 35.000)
+                  </button>
+                </li>
+                <li>
+                  <button
+                    class="harga-ball"
+                    style="
+                      color: black;
+                      border-radius: 5px;
+                      width: 100%;
+                      background-color: white;
+                      margin-top: 20px;
+                      text-align: left;
+                      padding: 5px;
+                    "
+                  >
+                    <i
+                      class="fa-solid fa-money-bill"
+                      style="color: black; padding-right: 20px"
+                    ></i>
+                    110 Cash (Rp. 70.000)
+                  </button>
+                </li>
+                <li>
+                  <button
+                    class="harga-ball"
+                    style="
+                      color: black;
+                      border-radius: 5px;
+                      width: 100%;
+                      background-color: white;
+                      margin-top: 20px;
+                      text-align: left;
+                      padding: 5px;
+                    "
+                  >
+                    <i
+                      class="fa-solid fa-money-bill"
+                      style="color: black; padding-right: 20px"
+                    ></i>
+                    250 Cash (Rp. 140.000)
+                  </button>
+                </li>
+                <li>
+                  <button
+                    class="harga-ball"
+                    style="
+                      color: black;
+                      border-radius: 5px;
+                      width: 100%;
+                      background-color: white;
+                      margin-top: 20px;
+                      text-align: left;
+                      padding: 5px;
+                    "
+                  >
+                    <i
+                      class="fa-solid fa-money-bill"
+                      style="color: black; padding-right: 20px"
+                    ></i>
+                    800 Cash (Rp. 300.000)
+                  </button>
+                </li>
+                <li>
+                  <button
+                    class="harga-ball"
+                    style="
+                      color: black;
+                      border-radius: 5px;
+                      width: 100%;
+                      background-color: white;
+                      margin-top: 20px;
+                      text-align: left;
+                      padding: 5px;
+                    "
+                  >
+                    <i
+                      class="fa-solid fa-money-bill"
+                      style="color: black; padding-right: 20px"
+                    ></i>
+                    2000 Cash (Rp. 700.000)
+                  </button>
+                </li>
+              </ul>
+              <a
+                class="btn btn-secondary sticky-bottom"
+                href="index2.html"
+                role="button"
+                style="
+                  position: absolute;
+                  margin-bottom: 30px;
+                  background-color: darkblue;
+                  color: white;
+                "
+                >Pilih Pembayaran</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- OFFCANVAS MARVEL SUPER WAR -->
+
+      <div class="card" style="width: 18rem">
+        <img src="img/google play.jpg" class="card-img-top" alt="google-play" />
+        <div class="card-body">
+          <h5
+            class="card-title"
+            style="color: black; padding-bottom: 50px; font-size: 18px"
+          >
+            Marvel Super War
+          </h5>
+          <button
+            class="btn btn-primary"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasRight14"
+            aria-controls="offcanvasRight"
+          >
+            Beli Sekarang!!!
+          </button>
+
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasRight14"
+            aria-labelledby="offcanvasRightLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasRightLabel">
+                Offcanvas right
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">...</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- OFFCANVAS ASPHALT 9 -->
+
+      <div class="card" style="width: 18rem">
+        <img src="img/google play.jpg" class="card-img-top" alt="google-play" />
+        <div class="card-body">
+          <h5 class="card-title" style="color: black; padding-bottom: 50px">
+            Asphalt 9
+          </h5>
+          <button
+            class="btn btn-primary"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasRight15"
+            aria-controls="offcanvasRight"
+          >
+            Beli Sekarang!!!
+          </button>
+
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasRight15"
+            aria-labelledby="offcanvasRightLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasRightLabel">
+                Offcanvas right
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">...</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
