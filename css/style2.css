@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "bruce";
+  src: url("../font/bruceforeverregular-x3jd2-webfont.woff2") format("woff2"),
+    url("../font/bruceforeverregular-x3jd2-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 1000px;
+  font-family: bruce;
+  scroll-behavior: smooth !important;
+  background-color: lightskyblue;
+}
+
+li {
+  list-style: none;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 100px;
+  align-items: center;
+}
+
+.form .data p {
+  font-size: 100%;
+}
+
+.gambar {
+  text-align: center;
+}
+
+/* input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+} */
+
+.Pembayaran:focus {
+  box-shadow: 0 0 0 5px gold;
+}

@@ -11,7 +11,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: bruce;
-  height: 2000px;
+  height: 100%;
   background-color: lightskyblue;
 }
 
@@ -33,6 +33,56 @@ li {
   list-style: none;
 }
 
+@media (max-width: 1170px) {
+  .ml,
+  .genshin {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 860px) {
+  .ml,
+  .steam,
+  .pubg,
+  .minecraft,
+  .garena,
+  .coc,
+  .iqiyi {
+    margin-top: 50px;
+  }
+
+  .logo {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .garena,
+  .nimo {
+    margin-top: 50px;
+  }
+
+  .vidio,
+  .nimo {
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 1160px) {
+  .minecraft,
+  .spotify {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 575px) {
+  .pb,
+  .xbox,
+  .wetv {
+    margin-top: 50px;
+  }
+}
+
 .harga:focus {
   box-shadow: 0 0 0 5px lightblue;
 }
@@ -46,15 +96,15 @@ li {
 }
 
 .harga-ml:focus {
-    box-shadow: 0 0 0 5px blue;
+  box-shadow: 0 0 0 5px blue;
 }
 
 .harga-genshin:focus {
-    box-shadow: 0 0 0 5px darkblue;
+  box-shadow: 0 0 0 5px darkblue;
 }
 
 .harga-google:focus {
-    box-shadow: 0 0 0 5px green;
+  box-shadow: 0 0 0 5px green;
 }
 
 .harga-pb:focus {
@@ -74,5 +124,67 @@ li {
 }
 
 .harga-top:focus {
-  box-shadow: 0 0 0 5px lightgreen
+  box-shadow: 0 0 0 5px lightgreen;
+}
+
+.harga-ball:focus {
+  box-shadow: 0 0 0 5px darkblue;
+}
+
+.harga-marvel:focus {
+  box-shadow: 0 0 0 5px red;
+}
+
+.harga-ff:focus {
+  box-shadow: 0 0 0 5px yellow;
+}
+
+.harga-vidio:focus {
+  box-shadow: 0 0 0 5px crimson;
+}
+
+.harga-wetv:focus {
+  box-shadow: 0 0 0 5px lightgreen;
+}
+
+.harga-iqiyi:focus {
+  box-shadow: 0 0 0 5px green;
+}
+
+.harga-spotify:focus {
+  box-shadow: 0 0 0 5px green;
+}
+
+.harga-nimo:focus {
+  box-shadow: 0 0 0 5px darkviolet;
+}
+
+.harga-viu:focus {
+  box-shadow: 0 0 0 5px orange;
+}
+
+.harga-itunes:focus {
+  box-shadow: 0 0 0 5px darkviolet;
+}
+
+.harga-vision:focus {
+  box-shadow: 0 0 0 5px crimson;
+}
+
+.harga-likee:focus {
+  box-shadow: 0 0 0 5px purple;
+}
+
+.harga-tinder:focus {
+  box-shadow: 0 0 0 5px crimson;
+}
+
+.footer {
+  background-color: darkblue;
+  margin-top: 100px;
+  /* height: 500px; */
+  justify-content: space-evenly;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
 }
